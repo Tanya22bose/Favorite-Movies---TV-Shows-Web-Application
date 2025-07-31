@@ -28,7 +28,11 @@ npm install
 
 3. Create DB in Mongo DB Atlas:
 
-4. Create .env in /backend:
+4. Create .env in /backend, add mongo url from mongo db atlas cluster:
+```
+mongo_url = ''
+JWT_SECRET = ''
+```
 
 5. Start server:
 ```
@@ -50,5 +54,3 @@ npm install
 - Responsive UI
 - Poster upload
 - Authentication (login/signup)
-
-📸 Demo
